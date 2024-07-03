@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Omotola</title>
+    <link href="contactme.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="https://toppng.com/uploads/thumbnail/video-play-comments-play-button-vhs-11562922969uh8eeheght.png">
+</head>
+<body>
+    <div class="image">
+        <img src="https://i.pinimg.com/originals/a2/e3/8d/a2e38d4af92a0d4f9e023bee9cee9b46.gif" alt="Background Image" class="background-image">
+        
+        <div class="home-page">
+            <div class="navbar" id="myNavbar">
+                <a href="index.html" class="home-page-link">Omotola Joseph</a>
+                <a href="citations.html" class="split">Sources</a>
+                <a href="contactme.html" class="split active">Contact Me</a>
+                <a href="projects.html" class="split">Projects</a>
+                <a href="resume.html" class="split">Resume</a>
+                <a href="aboutme.html"class="split">About Me</a>
+                <a href="javascript:void(0);" class="icon" onclick="navbarResize()">
+                    <i class="fa fa-bars"></i> 
+                </a>
+            </div>
+        </div>
+        <section class="contact-me">
+            <h2>Contact Me</h2>
+            <hr>
+            <p>Phone <i class="fa fa-phone" aria-hidden="true"></i>: 317-515-1679
+                | Email <i class="fa fa-envelope" aria-hidden="true"></i>: omotolajoseph2022@gmail.com
+            </p>
+            <hr>
+            <form class="vhs-form" action="https://api.web3forms.com/submit" method="POST">
+                <div class="form-row">
+                    <div class="left-input-field">
+                        <input type="hidden" name="access_key" value="ba73fed6-dc59-488a-b9a7-fc5e69073dd6">
+                        <div class="input-field field">
+                            <input type="text" placeholder="Full Name" name="name" class="item" required>
+                        </div>
+                        <div class="input-field field">
+                            <input type="email" placeholder="Email Address" name="email" class="item" autocomplete="off" required>
+                        </div>
+                        <div class="input-field field">
+                            <input type="tel" placeholder="Phone Number" name="phone" class="item" autocomplete="off" required>
+                        </div>
+                        <div class="input-field field">
+                            <input type="text" placeholder="Subject" name="subject" class="item" autocomplete="off" required>
+                        </div>
+                    </div>
+                    <div class="textarea-field">
+                        <div class="field">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" autocomplete="off" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="vhs-button">Submit Message ►</button>
+                </div>
+            </form>
+            
+            
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p class="copyright">&copy; 2024 Omotola Joseph</p>
+                <div class="social-media-links">
+                    <a href="https://github.com/jomotola"><i class="fa fa-github"></i></a>
+                </div>
+                <p class="by-me">Made by Omotola Joseph</p>
+            </div>
+        </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contactme.js"></script>
+</body>
+</html>
