@@ -1,13 +1,11 @@
 let playButton = document.querySelector('.play');
 let headerElement = document.querySelector('header');
-let originalStatementElement = document.querySelector(".original-statement");
 
 let headerText = "Omotola Joseph ►";
 let currentDateElement = document.querySelector('.current-date');
 
 playButton.addEventListener('click', function() {
     playButton.style.display = "none";
-    originalStatementElement.style.display = "none";
     
     let currentDate = new Date().toLocaleDateString();
 
